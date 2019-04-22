@@ -42,7 +42,7 @@ class Matrix {
                 matrixValue = matrix[abscissa][ordered],
                 matrixReduced = this.reduceDimension(matrix, indication);
 
-            determinant += indication.signe() * matrixValue * matrixReduced.determinant();
+            determinant += indication.sign() * matrixValue * matrixReduced.determinant();
         }
 
         return determinant;

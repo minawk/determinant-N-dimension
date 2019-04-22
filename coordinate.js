@@ -4,7 +4,7 @@ class Coordinate {
         this.ordered = ordered;
     }
 
-    signe() {
+    sign() {
         const sum = this.abscissa + this.ordered;
         const isPair = (number) => number % 2 === 0;
         return isPair(sum) ? 1 : -1;
