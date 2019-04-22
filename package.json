@@ -1,0 +1,9 @@
+{
+  "name": "determinant",
+  "version": "1.0.0",
+  "description": "Calculate determinant of matrix with N dimension",
+  "main": "main.js",
+  "author": "minawk",
+  "license": "MIT",
+  "private": false
+}
