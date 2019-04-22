@@ -5,5 +5,8 @@
   "main": "main.js",
   "author": "minawk",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+      "start": "node main"
+  }
 }
