@@ -14,9 +14,9 @@ class Matrix {
 
         matrix.forEach((row, abscissa) => {
             row.forEach((value, ordered) => {
-                let coordered = new Coordinate(abscissa, ordered);
+                let coordinate = new Coordinate(abscissa, ordered);
 
-                if (isNotAligned(coordered, indication)) {
+                if (isNotAligned(coordinate, indication)) {
                     matrixReduced[matrixReducedCoordinate.ordered].push(value);
                     matrixReducedCoordinate.nextIndication(dimension, () => matrixReduced.push([]));
                 }
